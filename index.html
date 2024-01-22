@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>♡ Quieres ser mi novia? ♡</title>
+</head>
+
+
+
+<body class="body">
+    <h1 class="body__title">♡ Martha Rubi Vázquez Carrasco, <p>quieres ser mi novia? ♡</h1>
+
+    <div class="img33">
+    <img src="recursos/manos.re.png" alt="te amo" class="body__img"/>
+    </div>
+
+<div class="contenedor" style="text-align: center">
+    <button  href="#" class="btn1" id="yes">si</button>
+    <button  href="#" class="btn2" id="no">no</button>
+</div>
+
+    <script>
+        const vutonSi = document.getElementById("yes");
+        const vutonNo = document.getElementById("no");
+
+        const somosNovias = () => {
+            alert('ahora somos novias ♡');
+            alert('si te explicara cuanto te amo, hablariamos toda la noche')
+            location.href = "teamo.html";
+            }
+
+            const evadir = () => {
+                vutonNo.style.position = 'absolute';
+                vutonNo.style.top = (Math.random()*window.innerHeight) + 'px';
+                vutonNo.style.left = (Math.random()*window.innerWidth) + 'px';
+            }
+
+            vutonSi.addEventListener('click', somosNovias);
+            vutonNo.addEventListener('mouseover', evadir);
+        
+    </script>
+</body>
+</html>

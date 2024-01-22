@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:ital,wght@1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #9fcfb8;
+}
+
+:root{
+    --color: #9fcfb8;
+}
+
+.body__title{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.body__img {
+    width: 15%;
+
+}
+.img33{
+    text-align: center;
+}
+
+
+.btn1 {
+    background-color: #65a889;
+    position: relative;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.btn2 {
+    background-color: #65a889;
+    position: relative;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.btn3 {
+    margin-top: 40px;
+    background-color: #65a889;
+    position: relative;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.titulog1{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 50px;
+
+}
+
+.titulog2{
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    margin-top: 0px;
+    
+    
+}
+
+.img34{
+    text-align: center;
+
+}
+.body__img_2 {
+    width: 20%;
+
+}
+
+.h2g{
+    text-align:center;
+    margin-top: 0px;
+    color: black;
+}
+
+.pointssep{
+    
+    color: #9fcfb8;
+
+}
